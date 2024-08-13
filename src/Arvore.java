@@ -139,6 +139,8 @@ public class Arvore {
 				paiNo = atual;
 				atual = atual.getRight();
 			}
+		}else {
+			this.raiz = this.raiz.getRight();
 		}
 	}
 	
